@@ -7,7 +7,7 @@ import { useFavorites } from "../../hooks/useFavorite";
 import BookList from "./BookList";
 import AddBookForm from "./AddBookForm";
 import { Book } from "@types-book/index";
-import { Loader, Read } from "../../assets/img/Images";
+import { Loader } from "../../assets/img/Images";
 
 function Home() {
   const { books: apiBooks, loading } = useBooks({ type: TypeFetch.LIST });
@@ -49,9 +49,7 @@ function Home() {
       <div className="header">
         <h3>Great reading book</h3>
         <span>Happy reading book serries & explore beyond your expirence</span>
-        <div className="bg-right">
-          <Read />
-        </div>
+        <div className="bg-right"></div>
       </div>
       <div className="body-book">
         <h2 className="title-header">

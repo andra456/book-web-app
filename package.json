@@ -24,8 +24,6 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.1.8",
-    "@types/redux-logger": "^3.0.9",
     "@types/lodash": "^4.17.4"
   },
   "scripts": {
